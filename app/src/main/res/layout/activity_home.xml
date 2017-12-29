@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.latifah.socialshopping.Home.HomeActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--toolbar top-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RelLayout1">
+            <include layout="@layout/layout_top_tabs"/>
+        </RelativeLayout>
+        <!--midle section (body)-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/RelLayout2">
+            <include layout="@layout/layout_center_viewpager"/>
+        </RelativeLayout>
+        <!--bottom navigation-->
+        <include layout="@layout/layout_bottom_navigation_view"/>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

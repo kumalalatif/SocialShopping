@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "569515167902",
+    "firebase_url": "https://socialshopping-3f910.firebaseio.com",
+    "project_id": "socialshopping-3f910",
+    "storage_bucket": "socialshopping-3f910.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569515167902:android:cd2eaeaf13d097bd",
+        "android_client_info": {
+          "package_name": "com.latifah.socialshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569515167902-21gmsj77kn5o0ummu7hgsji1ranko7ie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.latifah.socialshopping",
+            "certificate_hash": "c9ae755ddd5cdcb36baf562ab7c826b0477317cd"
+          }
+        },
+        {
+          "client_id": "569515167902-6u56cesdok1nnqbuurjsjqv6s52ilc7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2mh6N1MEHyhbhOfzOLfkcQvaXnkHOQdw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569515167902-6u56cesdok1nnqbuurjsjqv6s52ilc7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
